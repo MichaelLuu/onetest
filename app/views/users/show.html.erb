@@ -1,0 +1,5 @@
+  <%= image_tag @user.image.url %>
+  <%= image_tag @user.image.url(:medium) %>
+  <%= image_tag @user.image.url(:thumb) %>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
